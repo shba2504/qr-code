@@ -1,0 +1,38 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  font-family: Outfit, Arial, Helvetica, sans-serif;
+}
+
+.full-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-container {
+  background-color: white;
+  width: 20%;
+  border-radius: 20px;
+  padding: 1em 1em 1em 1em;
+  margin: 0;
+}
+
+.qr-code {
+  text-align: center;
+}
+
+h2 {
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+}
