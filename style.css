@@ -1,21 +1,27 @@
+html {
+  height: 100%;
+}
+
 body {
   background-color: hsl(212, 45%, 89%);
   font-size: 15px;
   font-family: Outfit, Arial, Helvetica, sans-serif;
-}
-
-.full-container {
+  margin: 0;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.full-container {
+  height: 100%;
+}
+
 .qr-container {
   background-color: white;
-  width: 20%;
+  width: 20em;
   border-radius: 20px;
   padding: 1em 1em 1em 1em;
-  margin: 0;
 }
 
 .qr-code {
